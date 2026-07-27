@@ -1,0 +1,6 @@
+{
+  "name": "Web Directory & Search Engine",
+  "description": "A high-performance bilingual web directory and search engine with fuzzy search, category filtering, pricing plans, and curated top tools.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
