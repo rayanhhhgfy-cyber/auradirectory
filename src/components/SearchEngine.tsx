@@ -16,14 +16,14 @@ interface SearchEngineProps {
 }
 
 const sampleIntents = [
+  { en: "Vibe Coding", ar: "Vibe Coding" },
+  { en: "Free Vibe Coding", ar: "أدوات Vibe Coding مجانية" },
+  { en: "Cursor", ar: "محرر كورسر" },
+  { en: "bolt.new free", ar: "بولن نيو مجاني" },
   { en: "host nextjs website", ar: "استضافة موقع نكست جيه اس" },
   { en: "free postgresql database", ar: "قواعد بيانات بوسطجريس مجانية" },
   { en: "ai voice generator clone", ar: "توليد الأصوات بالذكاء الاصطناعي" },
-  { en: "ui ux design prototype", ar: "تصميم الواجهات والبروتوتايب" },
-  { en: "a website to edit videos", ar: "تعديل المونتاج والفيديو" },
-  { en: "no code website builder", ar: "بناء مواقع بدون كود" },
-  { en: "error tracking debugging", ar: "تتبع أخطاء البرمجة" },
-  { en: "vector search database llm", ar: "قاعدة بيانات المتجهات للذكاء الاصطناعي" }
+  { en: "ui ux design prototype", ar: "تصميم الواجهات والبروتوتايب" }
 ];
 
 export const SearchEngine: React.FC<SearchEngineProps> = ({

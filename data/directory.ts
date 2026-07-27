@@ -2,6 +2,360 @@ import { Website } from "../src/types";
 
 export const websiteDirectory: Website[] = [
   {
+    "id": "cursor-editor",
+    "name": "Cursor",
+    "url": "https://cursor.com",
+    "category": "AI & Machine Learning",
+    "subcategory": "Vibe Coding & AI IDE",
+    "tags": [
+      "Vibe Coding",
+      "AI IDE",
+      "Free Vibe Coding",
+      "VS Code",
+      "Composer",
+      "Auto Code"
+    ],
+    "description": "The premier AI-first code editor designed for vibe coding. Features multi-file agentic indexing, instant code generation, and agentic composer mode.",
+    "descriptionAr": "محرر الأكواد الشهير المفضل لأسلوب الـ Vibe Coding. يحتوي على مساعد ذكي متكامل لفهم المشاريع والتعديل على عدة ملفات بلمسة واحدة.",
+    "plans": [
+      {
+        "tier": "Hobby (Free Vibe Coding)",
+        "price": "Free",
+        "details": "2,000 completions and 50 slow premium requests per month."
+      },
+      {
+        "tier": "Pro",
+        "price": "$20/mo",
+        "details": "500 fast premium requests per month and unlimited autocomplete."
+      }
+    ],
+    "isBest": true,
+    "pricingCategory": "Free",
+    "intentKeywords": [
+      "cursor vibe coding",
+      "free vibe coding ide",
+      "cursor composer free",
+      "ai code editor"
+    ],
+    "rating": 4.99
+  },
+  {
+    "id": "bolt-new",
+    "name": "Bolt.new",
+    "url": "https://bolt.new",
+    "category": "AI & Machine Learning",
+    "subcategory": "Vibe Coding & AI IDE",
+    "tags": [
+      "Vibe Coding",
+      "Free Vibe Coding",
+      "In-Browser WebIDE",
+      "Full Stack",
+      "StackBlitz",
+      "React"
+    ],
+    "description": "An AI-powered full-stack web development workspace that turns prompts into full applications directly in the browser with live Node.js runtime.",
+    "descriptionAr": "منصة Vibe Coding متكاملة داخل المتصفح. تحول الأفكار والأوامر إلى تطبيقات ويب حية مع تشغيل السيرفرات تلقائياً.",
+    "plans": [
+      {
+        "tier": "Free Vibe Coding Tier",
+        "price": "Free",
+        "details": "Free daily AI prompt tokens and full browser WebContainer runtime."
+      },
+      {
+        "tier": "Pro",
+        "price": "$20/mo",
+        "details": "Unlimited high-speed AI code edits and private project creation."
+      }
+    ],
+    "isBest": true,
+    "pricingCategory": "Free",
+    "intentKeywords": [
+      "bolt.new vibe coding free",
+      "browser app generator",
+      "stackblitz bolt free",
+      "prompt to fullstack app"
+    ],
+    "rating": 4.96
+  },
+  {
+    "id": "lovable-dev",
+    "name": "Lovable.dev",
+    "url": "https://lovable.dev",
+    "category": "AI & Machine Learning",
+    "subcategory": "Vibe Coding & AI IDE",
+    "tags": [
+      "Vibe Coding",
+      "AI Engineer",
+      "Free Vibe Coding",
+      "Full Stack",
+      "React",
+      "Supabase"
+    ],
+    "description": "The AI engineer that builds full-stack web software from natural language. Generates pristine UI, connects backend databases, and deploys instantly.",
+    "descriptionAr": "المساعد المطور الذكي لبناء تطبيقات ويب كاملة من خلال المحادثة النصية، مع ربط قواعد البيانات والمظهر الاحترافي.",
+    "plans": [
+      {
+        "tier": "Free Starter",
+        "price": "Free",
+        "details": "Daily prompt credits to build and edit web apps."
+      },
+      {
+        "tier": "Pro",
+        "price": "$20/mo",
+        "details": "Extended monthly message limits and custom domain hosting."
+      }
+    ],
+    "isBest": true,
+    "pricingCategory": "Free",
+    "intentKeywords": [
+      "lovable dev vibe coding",
+      "free vibe coding agent",
+      "lovable ai app builder",
+      "prompt to app"
+    ],
+    "rating": 4.97
+  },
+  {
+    "id": "v0-dev",
+    "name": "v0 by Vercel",
+    "url": "https://v0.dev",
+    "category": "AI & Machine Learning",
+    "subcategory": "Vibe Coding & AI IDE",
+    "tags": [
+      "Vibe Coding",
+      "Free Vibe Coding",
+      "React",
+      "Tailwind",
+      "Generative UI",
+      "Vercel"
+    ],
+    "description": "Generative UI & Vibe Coding system by Vercel. Turn natural language prompts into production-ready React and Tailwind CSS components.",
+    "descriptionAr": "أداة توليد واجهات المستخدِم و Vibe Coding من فرسيل. تحول النصوص إلى واجهات برمجية متكاملة بأسلوب حديث.",
+    "plans": [
+      {
+        "tier": "Free Vibe Coding Tier",
+        "price": "Free",
+        "details": "200 free generation credits per month."
+      },
+      {
+        "tier": "Premium",
+        "price": "$20/mo",
+        "details": "5,000 credits per month and private generations."
+      }
+    ],
+    "isBest": true,
+    "pricingCategory": "Free",
+    "intentKeywords": [
+      "v0 vercel vibe coding",
+      "free react UI generator",
+      "v0 dev free credits"
+    ],
+    "rating": 4.95
+  },
+  {
+    "id": "windsurf-editor",
+    "name": "Windsurf (Codeium)",
+    "url": "https://codeium.com/windsurf",
+    "category": "AI & Machine Learning",
+    "subcategory": "Vibe Coding & AI IDE",
+    "tags": [
+      "Vibe Coding",
+      "Free Vibe Coding",
+      "Agentic IDE",
+      "Cascade Flow",
+      "Codeium"
+    ],
+    "description": "The agentic IDE where developers and AI collaborate in real-time. Powered by Cascade engine for seamless deep codebase editing.",
+    "descriptionAr": "محرر أكواد Vibe Coding مبتكر يعتمد على بيئة Cascade لتنفيذ الملاحظات وتعديل المشاريع البرمجية التلقائية.",
+    "plans": [
+      {
+        "tier": "Free Vibe Coding Tier",
+        "price": "Free",
+        "details": "Unlimited standard AI auto-complete and free Cascade usage."
+      },
+      {
+        "tier": "Pro",
+        "price": "$15/mo",
+        "details": "Unlimited premium fast models and enterprise codebase indexing."
+      }
+    ],
+    "isBest": true,
+    "pricingCategory": "Free",
+    "intentKeywords": [
+      "windsurf codeium vibe coding",
+      "free agentic ide",
+      "windsurf vs cursor free"
+    ],
+    "rating": 4.96
+  },
+  {
+    "id": "cline-dev",
+    "name": "Cline (Claude Dev)",
+    "url": "https://github.com/cline/cline",
+    "category": "AI & Machine Learning",
+    "subcategory": "Vibe Coding & AI IDE",
+    "tags": [
+      "Vibe Coding",
+      "Free Vibe Coding",
+      "Open Source",
+      "VS Code Extension",
+      "Autonomous Agent"
+    ],
+    "description": "An open-source autonomous coding agent inside VS Code that can create files, run terminal commands, and fix bugs using any LLM API key.",
+    "descriptionAr": "إضافة مفتوحة المصدر ومجانية بالكامل داخل VS Code لإنشاء وقراءة المشاريع وتنفيذ أوامر التيرمينال عبر الذكاء الاصطناعي.",
+    "plans": [
+      {
+        "tier": "100% Free & Open Source",
+        "price": "Free",
+        "details": "Bring your own API key (Claude, DeepSeek, OpenAI, Ollama)."
+      }
+    ],
+    "isBest": true,
+    "pricingCategory": "Free",
+    "intentKeywords": [
+      "cline vscode free vibe coding",
+      "claude dev extension",
+      "open source ai coding agent"
+    ],
+    "rating": 4.98
+  },
+  {
+    "id": "aider-chat",
+    "name": "Aider.chat",
+    "url": "https://aider.chat",
+    "category": "AI & Machine Learning",
+    "subcategory": "Vibe Coding & AI IDE",
+    "tags": [
+      "Vibe Coding",
+      "Free Vibe Coding",
+      "CLI",
+      "Terminal Agent",
+      "Git Integration",
+      "Open Source"
+    ],
+    "description": "Command line AI pair programmer that allows you to vibe code with local Git repositories using Claude 3.5, DeepSeek R1, or local models.",
+    "descriptionAr": "أداة برمجة سطر الأوامر CLI المجانية للمطورين للتعديل على أكواد Git وتطويرها بأسلوب Vibe Coding التفاعلي.",
+    "plans": [
+      {
+        "tier": "100% Free & Open Source",
+        "price": "Free",
+        "details": "Free CLI tool. Works with open-source local models or API keys."
+      }
+    ],
+    "isBest": true,
+    "pricingCategory": "Free",
+    "intentKeywords": [
+      "aider chat free vibe coding",
+      "terminal ai coder",
+      "aider deepseek r1 free"
+    ],
+    "rating": 4.97
+  },
+  {
+    "id": "replit-agent",
+    "name": "Replit Agent",
+    "url": "https://replit.com",
+    "category": "AI & Machine Learning",
+    "subcategory": "Vibe Coding & AI IDE",
+    "tags": [
+      "Vibe Coding",
+      "Cloud IDE",
+      "Full Stack",
+      "Deployment",
+      "AI Agent"
+    ],
+    "description": "Build full software applications from plain English prompts. Automatically sets up databases, packages, and deploys to live URLs.",
+    "descriptionAr": "مساعد ريبليت الذكي لبناء البرمجيات من الصفر واستضافتها تلقائياً عبر الأوامر النصية البسيطة.",
+    "plans": [
+      {
+        "tier": "Free Trial",
+        "price": "Free Trial",
+        "details": "Test credits included with Replit Core membership."
+      },
+      {
+        "tier": "Replit Core",
+        "price": "$20/mo",
+        "details": "Includes monthly Agent credits and persistent server instances."
+      }
+    ],
+    "isBest": true,
+    "pricingCategory": "Free Trial",
+    "intentKeywords": [
+      "replit agent vibe coding",
+      "replit ai builder",
+      "prompt to hosted app"
+    ],
+    "rating": 4.92
+  },
+  {
+    "id": "roo-code",
+    "name": "Roo Code (Roo Cline)",
+    "url": "https://github.com/RooVetGit/Roo-Cline",
+    "category": "AI & Machine Learning",
+    "subcategory": "Vibe Coding & AI IDE",
+    "tags": [
+      "Vibe Coding",
+      "Free Vibe Coding",
+      "VS Code Extension",
+      "Multi-Agent",
+      "Open Source"
+    ],
+    "description": "Autonomous AI coding assistant extension for VS Code with custom modes (Architect, Code, Test) for complete vibe coding flexibility.",
+    "descriptionAr": "إضافة مجانية بالكامل لـ VS Code تدعم نماذج التفكير المتعددة لإرشادك وتطوير الأكواد بمرونة متناهية.",
+    "plans": [
+      {
+        "tier": "100% Free & Open Source",
+        "price": "Free",
+        "details": "Free extension supporting local and cloud LLM providers."
+      }
+    ],
+    "isBest": true,
+    "pricingCategory": "Free",
+    "intentKeywords": [
+      "roo code vscode free vibe coding",
+      "roo cline open source",
+      "free ai developer extension"
+    ],
+    "rating": 4.96
+  },
+  {
+    "id": "warp-terminal",
+    "name": "Warp Terminal",
+    "url": "https://warp.dev",
+    "category": "AI & Machine Learning",
+    "subcategory": "Vibe Coding & AI IDE",
+    "tags": [
+      "Vibe Coding",
+      "Free Vibe Coding",
+      "Terminal",
+      "AI Shell",
+      "Rust",
+      "Productivity"
+    ],
+    "description": "The modern Rust-based terminal with built-in AI search, command generation, and workflow automation for vibe coders.",
+    "descriptionAr": "تيرمينال سريع مبني بلغة Rust مع مدخلات الذكاء الاصطناعي المجانية واقتراحات الأوامر التلقائية.",
+    "plans": [
+      {
+        "tier": "Free Forever",
+        "price": "Free",
+        "details": "100 AI requests per month included for individual developers."
+      },
+      {
+        "tier": "Pro",
+        "price": "$12/mo",
+        "details": "Unlimited AI command lookup and custom team playbooks."
+      }
+    ],
+    "isBest": true,
+    "pricingCategory": "Free",
+    "intentKeywords": [
+      "warp terminal ai free",
+      "modern rust terminal",
+      "vibe coding shell tool"
+    ],
+    "rating": 4.95
+  },
+  {
     "id": "chatgpt",
     "name": "ChatGPT",
     "url": "https://chatgpt.com",
@@ -27,11 +381,6 @@ export const websiteDirectory: Website[] = [
         "tier": "Plus",
         "price": "$20/mo",
         "details": "Access to GPT-4o, o1 reasoning, DALL-E 3, and custom GPTs."
-      },
-      {
-        "tier": "Team",
-        "price": "$25/user/mo",
-        "details": "Higher message limits and workspace admin control."
       }
     ],
     "isBest": true,
@@ -58,7 +407,7 @@ export const websiteDirectory: Website[] = [
       "Research"
     ],
     "description": "Next-generation AI assistant built by Anthropic with incredible coding accuracy, nuanced writing, and multi-file project analysis.",
-    "descriptionAr": "مساعد الذكاء الاصطناعي الجيل القادم من أنثروبيك مع إمكانيات فائقة في التحليل البرمجي، كتابة المقالات، ومعالجة الملفات المعقدة.",
+    "descriptionAr": "مساعد الذكاء الاصطناعي الجيل القادم من أنثروبيك مع إمكانيات فائقة في التحليل البرمجي والتفاعل.",
     "plans": [
       {
         "tier": "Free",
@@ -68,7 +417,7 @@ export const websiteDirectory: Website[] = [
       {
         "tier": "Pro",
         "price": "$20/mo",
-        "details": "5x usage quota, priority server access, and early feature preview."
+        "details": "5x usage quota and priority server access."
       }
     ],
     "isBest": true,
@@ -117,235 +466,21 @@ export const websiteDirectory: Website[] = [
     "rating": 4.95
   },
   {
-    "id": "cursor-editor",
-    "name": "Cursor",
-    "url": "https://cursor.com",
-    "category": "AI & Machine Learning",
-    "subcategory": "AI Code Editor",
-    "tags": [
-      "AI",
-      "IDE",
-      "Coding",
-      "VS Code",
-      "Developer Tools"
-    ],
-    "description": "The AI-first code editor designed to make engineers hyper-productive with agentic multi-file codebase indexing.",
-    "descriptionAr": "محرر الأكواد الأذكى في العالم والمبني على VS Code لمساعدة المطورين في كتابة الأكواد وتوليدها تلقائياً مع فهم شامل للمشروع.",
-    "plans": [
-      {
-        "tier": "Hobby",
-        "price": "Free",
-        "details": "2,000 completions and 50 slow premium requests."
-      },
-      {
-        "tier": "Pro",
-        "price": "$20/mo",
-        "details": "500 fast premium requests per month and unlimited autocomplete."
-      }
-    ],
-    "isBest": true,
-    "pricingCategory": "Free",
-    "intentKeywords": [
-      "cursor ide",
-      "ai code editor",
-      "vs code ai plugin",
-      "cursor composer"
-    ],
-    "rating": 4.97
-  },
-  {
-    "id": "midjourney",
-    "name": "Midjourney",
-    "url": "https://midjourney.com",
-    "category": "AI & Machine Learning",
-    "subcategory": "AI Image Generation",
-    "tags": [
-      "AI Art",
-      "Image Generator",
-      "Photorealism",
-      "Design"
-    ],
-    "description": "State-of-the-art AI image generator producing hyper-realistic photography, concept art, and visual graphics.",
-    "descriptionAr": "المنصة الأولى عالمياً في توليد الصور والرسومات بالفن الاصطناعي بدقة سينمائية وتفاصيل واقعية مذهلة.",
-    "plans": [
-      {
-        "tier": "Basic",
-        "price": "$10/mo",
-        "details": "~200 image generations per month."
-      },
-      {
-        "tier": "Standard",
-        "price": "$30/mo",
-        "details": "15 hrs of fast generation and unlimited relax mode."
-      }
-    ],
-    "isBest": true,
-    "pricingCategory": "$1-$10/mo",
-    "intentKeywords": [
-      "midjourney image generator",
-      "ai art creator",
-      "photorealistic ai images"
-    ],
-    "rating": 4.96
-  },
-  {
-    "id": "huggingface",
-    "name": "Hugging Face",
-    "url": "https://huggingface.co",
-    "category": "AI & Machine Learning",
-    "subcategory": "AI Community & Models",
-    "tags": [
-      "Open Source",
-      "LLM",
-      "Models",
-      "Datasets",
-      "Spaces"
-    ],
-    "description": "The GitHub of Machine Learning. Host, discover, and deploy open-source models, datasets, and AI apps.",
-    "descriptionAr": "المنصة والأرشيف الأكبر عالمياً لنماذج الذكاء الاصطناعي مفتوحة المصدر، مجموعات البيانات، والتطبيقات التفاعلية.",
-    "plans": [
-      {
-        "tier": "Free",
-        "price": "Free",
-        "details": "Public datasets, model hosting, and community Spaces."
-      },
-      {
-        "tier": "PRO",
-        "price": "$9/mo",
-        "details": "Higher CPU/GPU compute quotas and priority support."
-      }
-    ],
-    "isBest": true,
-    "pricingCategory": "Free",
-    "intentKeywords": [
-      "huggingface open source ai",
-      "download llm models",
-      "ai spaces hosting"
-    ],
-    "rating": 4.94
-  },
-  {
-    "id": "groq-inc",
-    "name": "Groq",
-    "url": "https://groq.com",
-    "category": "AI & Machine Learning",
-    "subcategory": "AI Inference Engine",
-    "tags": [
-      "LPU",
-      "Ultra-Fast",
-      "Inference",
-      "Llama 3",
-      "API"
-    ],
-    "description": "The fastest AI inference technology powered by LPU chip hardware, running open-source models at 800+ tokens/sec.",
-    "descriptionAr": "أسرع شريحة حاسوبية ومعالج LPU في العالم لتشغيل نماذج الذكاء الاصطناعي مفتوحة المصدر بسرعات فائقة للغاية.",
-    "plans": [
-      {
-        "tier": "Free Developer Tier",
-        "price": "Free",
-        "details": "High rate limits for Llama 3, Mixtral, and Whisper."
-      },
-      {
-        "tier": "Pay-As-You-Go",
-        "price": "Usage Based",
-        "details": "$0.05 - $0.59 per million tokens."
-      }
-    ],
-    "isBest": true,
-    "pricingCategory": "Free",
-    "intentKeywords": [
-      "groq fast ai api",
-      "ultra fast llama 3",
-      "groq cloud lpu"
-    ],
-    "rating": 4.96
-  },
-  {
-    "id": "elevenlabs",
-    "name": "ElevenLabs",
-    "url": "https://elevenlabs.io",
-    "category": "AI & Machine Learning",
-    "subcategory": "AI Voice & Speech",
-    "tags": [
-      "Text to Speech",
-      "Voice Cloning",
-      "Audio",
-      "Dubbing"
-    ],
-    "description": "Pioneering voice AI technology for realistic text-to-speech, voice cloning, and multilingual audio dubbing.",
-    "descriptionAr": "المنصة الرائدة في توليد الأصوات البشرية بالذكاء الاصطناعي، استنساخ الأصوات، والدبلجة الصوتية متعددة اللغات.",
-    "plans": [
-      {
-        "tier": "Free",
-        "price": "Free",
-        "details": "10,000 characters per month with standard voices."
-      },
-      {
-        "tier": "Starter",
-        "price": "$5/mo",
-        "details": "30,000 characters and instant voice cloning."
-      }
-    ],
-    "isBest": true,
-    "pricingCategory": "Free",
-    "intentKeywords": [
-      "elevenlabs text to speech",
-      "ai voice clone free",
-      "ai audio dubbing"
-    ],
-    "rating": 4.93
-  },
-  {
-    "id": "v0-dev",
-    "name": "v0 by Vercel",
-    "url": "https://v0.dev",
-    "category": "AI & Machine Learning",
-    "subcategory": "AI UI Generation",
-    "tags": [
-      "React",
-      "Tailwind",
-      "Vercel",
-      "Generative UI",
-      "Design"
-    ],
-    "description": "Generative UI system by Vercel. Turn natural language prompts into production-ready React and Tailwind CSS components.",
-    "descriptionAr": "أداة توليد واجهات المستخدم من فرسيل. تحول الأوامر النصية إلى مكونات برمجية بلغة React و Tailwind جاهزة للاستخدام.",
-    "plans": [
-      {
-        "tier": "Free",
-        "price": "Free",
-        "details": "200 free credits per month."
-      },
-      {
-        "tier": "Premium",
-        "price": "$20/mo",
-        "details": "5,000 credits per month and private generations."
-      }
-    ],
-    "isBest": true,
-    "pricingCategory": "Free",
-    "intentKeywords": [
-      "v0 vercel ui generator",
-      "generate react code with ai",
-      "tailwind component generator"
-    ],
-    "rating": 4.95
-  },
-  {
     "id": "deepseek",
     "name": "DeepSeek AI",
     "url": "https://deepseek.com",
     "category": "AI & Machine Learning",
     "subcategory": "Reasoning & LLMs",
     "tags": [
+      "Vibe Coding",
       "DeepSeek V3",
       "R1",
       "Reasoning",
       "Open Weights",
       "Coding"
     ],
-    "description": "Advanced open-weights AI models specializing in math, coding, and complex step-by-step reasoning.",
-    "descriptionAr": "نماذج ذكاء اصطناعي متقدمة للغاية ومفتوحة المصدر متخصصة في الرياضيات، البرمجة والتفكير المنطقي خطوة بخطوة.",
+    "description": "Advanced open-weights AI models specializing in math, coding, and complex step-by-step reasoning for vibe coding.",
+    "descriptionAr": "نماذج ذكاء اصطناعي متقدمة للغاية ومفتوحة المصدر متخصصة في الرياضيات، البرمجة والتفكير المنطقي.",
     "plans": [
       {
         "tier": "Free Chat",
@@ -365,43 +500,38 @@ export const websiteDirectory: Website[] = [
       "deepseek open source llm",
       "deepseek coding model"
     ],
-    "rating": 4.97
+    "rating": 4.98
   },
   {
-    "id": "suno-ai",
-    "name": "Suno AI",
-    "url": "https://suno.com",
+    "id": "groq-inc",
+    "name": "Groq",
+    "url": "https://groq.com",
     "category": "AI & Machine Learning",
-    "subcategory": "AI Music Generation",
+    "subcategory": "AI Inference Engine",
     "tags": [
-      "Music",
-      "Audio",
-      "Song Generator",
-      "Vocals",
-      "Creativity"
+      "LPU",
+      "Ultra-Fast",
+      "Inference",
+      "Llama 3",
+      "API"
     ],
-    "description": "Generate full songs with custom lyrics, vocals, and instruments from simple text descriptions.",
-    "descriptionAr": "منصة توليد الأغاني والموسيقى بالذكاء الاصطناعي مع الكلمات والألحان والأصوات الغنائية المتكاملة.",
+    "description": "The fastest AI inference technology powered by LPU chip hardware, running open-source models at 800+ tokens/sec.",
+    "descriptionAr": "أسرع شريحة حاسوبية ومعالج LPU في العالم لتشغيل نماذج الذكاء الاصطناعي مفتوحة المصدر بسرعات فائقة.",
     "plans": [
       {
-        "tier": "Free Basic",
+        "tier": "Free Developer Tier",
         "price": "Free",
-        "details": "50 credits daily (~10 songs per day)."
-      },
-      {
-        "tier": "Pro Plan",
-        "price": "$10/mo",
-        "details": "2,500 credits per month and commercial license."
+        "details": "High rate limits for Llama 3, Mixtral, and Whisper."
       }
     ],
     "isBest": true,
     "pricingCategory": "Free",
     "intentKeywords": [
-      "suno ai music generator",
-      "make song with ai free",
-      "ai music producer"
+      "groq fast ai api",
+      "ultra fast llama 3",
+      "groq cloud lpu"
     ],
-    "rating": 4.92
+    "rating": 4.96
   },
   {
     "id": "ollama",
@@ -410,13 +540,14 @@ export const websiteDirectory: Website[] = [
     "category": "AI & Machine Learning",
     "subcategory": "Local AI Execution",
     "tags": [
+      "Vibe Coding",
+      "Free Vibe Coding",
       "Local AI",
       "Llama 3",
       "Mistral",
-      "Open Source",
-      "Privacy"
+      "Open Source"
     ],
-    "description": "Get up and running with large language models locally on macOS, Linux, and Windows.",
+    "description": "Get up and running with large language models locally on macOS, Linux, and Windows for private vibe coding.",
     "descriptionAr": "أداة تشغيل نماذج الذكاء الاصطناعي محلياً على جهازك الشخصي بدون الحاجة للاتصال بالإنترنت.",
     "plans": [
       {
@@ -435,40 +566,157 @@ export const websiteDirectory: Website[] = [
     "rating": 4.98
   },
   {
-    "id": "ideogram",
-    "name": "Ideogram AI",
-    "url": "https://ideogram.ai",
+    "id": "huggingface",
+    "name": "Hugging Face",
+    "url": "https://huggingface.co",
     "category": "AI & Machine Learning",
-    "subcategory": "AI Typography & Design",
+    "subcategory": "AI Community & Models",
     "tags": [
-      "Text in Images",
-      "Logos",
-      "Poster Design",
-      "Typography",
-      "Art"
+      "Open Source",
+      "LLM",
+      "Models",
+      "Datasets",
+      "Spaces"
     ],
-    "description": "Advanced AI image generation with flawless typography, poster design, and vector logo rendering.",
-    "descriptionAr": "مولد الصور بالذكاء الاصطناعي المتخصص بدقة متناهية في رسم الكلمات والنصوص واللوجو داخل الصور.",
+    "description": "The GitHub of Machine Learning. Host, discover, and deploy open-source models, datasets, and AI apps.",
+    "descriptionAr": "المنصة والأرشيف الأكبر عالمياً لنماذج الذكاء الاصطناعي مفتوحة المصدر والمشاريع التفاعلية.",
     "plans": [
       {
         "tier": "Free",
         "price": "Free",
-        "details": "10 slow prompt generations daily."
-      },
-      {
-        "tier": "Basic",
-        "price": "$8/mo",
-        "details": "400 fast prompt generations per month."
+        "details": "Public datasets, model hosting, and community Spaces."
       }
     ],
-    "isBest": false,
+    "isBest": true,
     "pricingCategory": "Free",
     "intentKeywords": [
-      "ideogram text image generator",
-      "ai logo generator with text",
-      "ideogram free"
+      "huggingface open source ai",
+      "download llm models",
+      "ai spaces hosting"
     ],
-    "rating": 4.91
+    "rating": 4.94
+  },
+  {
+    "id": "midjourney",
+    "name": "Midjourney",
+    "url": "https://midjourney.com",
+    "category": "AI & Machine Learning",
+    "subcategory": "AI Image Generation",
+    "tags": [
+      "AI Art",
+      "Image Generator",
+      "Photorealism",
+      "Design"
+    ],
+    "description": "State-of-the-art AI image generator producing hyper-realistic photography, concept art, and visual graphics.",
+    "descriptionAr": "المنصة الأولى عالمياً في توليد الصور والرسومات بالفن الاصطناعي بدقة سينمائية وتفاصيل واقعية.",
+    "plans": [
+      {
+        "tier": "Basic",
+        "price": "$10/mo",
+        "details": "~200 image generations per month."
+      }
+    ],
+    "isBest": true,
+    "pricingCategory": "$1-$10/mo",
+    "intentKeywords": [
+      "midjourney image generator",
+      "ai art creator",
+      "photorealistic ai images"
+    ],
+    "rating": 4.96
+  },
+  {
+    "id": "flux-blackforest",
+    "name": "FLUX.1",
+    "url": "https://blackforestlabs.ai",
+    "category": "AI & Machine Learning",
+    "subcategory": "AI Image Generation",
+    "tags": [
+      "AI Art",
+      "Open Weights",
+      "Black Forest Labs",
+      "Photorealism",
+      "Free AI"
+    ],
+    "description": "State-of-the-art open-weights image generation model with incredible prompt adherence and typography capabilities.",
+    "descriptionAr": "نموذج توليد الصور مفتوح المصدر الأقوى من أطباء وعلماء الفن الاصطناعي السابقين في أدوبي وستابليتي.",
+    "plans": [
+      {
+        "tier": "Free Schnell Model",
+        "price": "Free",
+        "details": "Open weights model available for local and web demo inference."
+      }
+    ],
+    "isBest": true,
+    "pricingCategory": "Free",
+    "intentKeywords": [
+      "flux 1 ai image generator",
+      "black forest labs flux",
+      "open source flux schnell"
+    ],
+    "rating": 4.97
+  },
+  {
+    "id": "elevenlabs",
+    "name": "ElevenLabs",
+    "url": "https://elevenlabs.io",
+    "category": "AI & Machine Learning",
+    "subcategory": "AI Voice & Speech",
+    "tags": [
+      "Text to Speech",
+      "Voice Cloning",
+      "Audio",
+      "Dubbing"
+    ],
+    "description": "Pioneering voice AI technology for realistic text-to-speech, voice cloning, and multilingual audio dubbing.",
+    "descriptionAr": "المنصة الرائدة في توليد الأصوات البشرية بالذكاء الاصطناعي، استنساخ الأصوات، والدبلجة الصوتية.",
+    "plans": [
+      {
+        "tier": "Free",
+        "price": "Free",
+        "details": "10,000 characters per month with standard voices."
+      }
+    ],
+    "isBest": true,
+    "pricingCategory": "Free",
+    "intentKeywords": [
+      "elevenlabs text to speech",
+      "ai voice clone free",
+      "ai audio dubbing"
+    ],
+    "rating": 4.93
+  },
+  {
+    "id": "suno-ai",
+    "name": "Suno AI",
+    "url": "https://suno.com",
+    "category": "AI & Machine Learning",
+    "subcategory": "AI Music Generation",
+    "tags": [
+      "Music",
+      "Audio",
+      "Song Generator",
+      "Vocals",
+      "Creativity"
+    ],
+    "description": "Generate full songs with custom lyrics, vocals, and instruments from simple text descriptions.",
+    "descriptionAr": "منصة توليد الأغاني والموسيقى بالذكاء الاصطناعي مع الكلمات والألحان والأصوات الغنائية.",
+    "plans": [
+      {
+        "tier": "Free Basic",
+        "price": "Free",
+        "details": "50 credits daily (~10 songs per day)."
+      }
+    ],
+    "isBest": true,
+    "pricingCategory": "Free",
+    "intentKeywords": [
+      "suno ai music generator",
+      "make song with ai free",
+      "ai music producer"
+    ],
+    "rating": 4.92
   },
   {
     "id": "vercel",
@@ -484,17 +732,12 @@ export const websiteDirectory: Website[] = [
       "Deploy"
     ],
     "description": "The Frontend Cloud platform for developer workflow. Deploy Next.js, React, Vue, and static sites effortlessly.",
-    "descriptionAr": "المنصة السحابية الأولى لنشر وتستضيف مواقع Next.js و React والتطبيقات بسرعة فائقة وشبكة توزيع عالمية.",
+    "descriptionAr": "المنصة السحابية الأولى لنشر وتستضيف مواقع Next.js و React والتطبيقات بسرعة فائقة.",
     "plans": [
       {
         "tier": "Hobby",
         "price": "Free",
         "details": "Free SSL, automatic CI/CD, and global edge network."
-      },
-      {
-        "tier": "Pro",
-        "price": "$20/user/mo",
-        "details": "Advanced analytics, speed insights, and team collaboration."
       }
     ],
     "isBest": true,
@@ -520,17 +763,12 @@ export const websiteDirectory: Website[] = [
       "Open Source"
     ],
     "description": "The world's largest developer platform for code hosting, version control, GitHub Actions, and Copilot AI.",
-    "descriptionAr": "المنصة البرمجية الأضخم عالمياً لاستضافة الأكواد، التحكم بالإصدارات Git، وإدارة المشاريع مفتوحة المصدر.",
+    "descriptionAr": "المنصة البرمجية الأضخم عالمياً لاستضافة الأكواد، التحكم بالإصدارات Git، وإدارة المشاريع.",
     "plans": [
       {
         "tier": "Free",
         "price": "Free",
         "details": "Unlimited public/private repos and 2,000 Action mins/mo."
-      },
-      {
-        "tier": "Team",
-        "price": "$4/user/mo",
-        "details": "Advanced code review and pull request drafting."
       }
     ],
     "isBest": true,
@@ -541,77 +779,6 @@ export const websiteDirectory: Website[] = [
       "github actions ci cd"
     ],
     "rating": 4.99
-  },
-  {
-    "id": "bolt-new",
-    "name": "Bolt.new",
-    "url": "https://bolt.new",
-    "category": "Web & Software Development",
-    "subcategory": "In-Browser Web IDE",
-    "tags": [
-      "WebContainer",
-      "Full Stack",
-      "StackBlitz",
-      "AI Coder",
-      "React"
-    ],
-    "description": "An AI-powered full-stack web development workspace running node.js servers entirely inside your browser.",
-    "descriptionAr": "بيئة تطوير حية ومتكاملة تعمل بالكامل داخل المتصفح مع دعم الذكاء الاصطناعي لتشغيل السيرفرات والتطبيقات مباشرة.",
-    "plans": [
-      {
-        "tier": "Free",
-        "price": "Free",
-        "details": "Free daily AI prompt tokens and container runtime."
-      },
-      {
-        "tier": "Pro",
-        "price": "$20/mo",
-        "details": "Unlimited high-speed AI code edits and private projects."
-      }
-    ],
-    "isBest": true,
-    "pricingCategory": "Free",
-    "intentKeywords": [
-      "bolt.new stackblitz",
-      "in-browser fullstack IDE",
-      "ai app generator browser"
-    ],
-    "rating": 4.94
-  },
-  {
-    "id": "netlify",
-    "name": "Netlify",
-    "url": "https://netlify.com",
-    "category": "Web & Software Development",
-    "subcategory": "Web Hosting & Serverless",
-    "tags": [
-      "Hosting",
-      "Jamstack",
-      "Serverless Functions",
-      "Forms"
-    ],
-    "description": "All-in-one platform for automating web projects with continuous integration, serverless functions, and global CDN.",
-    "descriptionAr": "منصة سحابية متكاملة لنشر تطبيقات الويب، دعم الدوال السحابية بدون سيرفر، وإدارة النماذج والشهادات مجاناً.",
-    "plans": [
-      {
-        "tier": "Free Starter",
-        "price": "Free",
-        "details": "100GB bandwidth/mo and 300 build minutes."
-      },
-      {
-        "tier": "Pro",
-        "price": "$19/user/mo",
-        "details": "1TB bandwidth, audit logs, and priority builds."
-      }
-    ],
-    "isBest": false,
-    "pricingCategory": "Free",
-    "intentKeywords": [
-      "netlify free hosting",
-      "deploy website free",
-      "serverless functions netlify"
-    ],
-    "rating": 4.88
   },
   {
     "id": "shadcn-ui",
@@ -627,7 +794,7 @@ export const websiteDirectory: Website[] = [
       "Design System"
     ],
     "description": "Beautifully designed, accessible components that you can copy and paste directly into your apps.",
-    "descriptionAr": "مكتبة مكونات برمجية أنيقة وميسرة الوصول تعتمد على Tailwind CSS ومتاحة للنسخ المباشر في مشروعك.",
+    "descriptionAr": "مكتبة مكونات برمجية أنيقة وميسرة الوصول تعتمد على Tailwind CSS ومتاحة للنسخ المباشر.",
     "plans": [
       {
         "tier": "100% Free & Open Source",
@@ -689,7 +856,7 @@ export const websiteDirectory: Website[] = [
       "JavaScript"
     ],
     "description": "The React Framework for the Web. Build full-stack web applications with Server Components and SSR.",
-    "descriptionAr": "إطار العمل الأشهر لبناء تطبيقات React متكاملة مع دعم التقديم من السيرفر (SSR) والتحسين للبحث SEO.",
+    "descriptionAr": "إطار العمل الأشهر لبناء تطبيقات React متكاملة مع دعم التقديم من السيرفر (SSR).",
     "plans": [
       {
         "tier": "Open Source",
@@ -720,7 +887,7 @@ export const websiteDirectory: Website[] = [
       "Web Dev"
     ],
     "description": "A utility-first CSS framework packed with classes that can be composed to build any design, directly in your markup.",
-    "descriptionAr": "إطار العمل الرائد لتنسيق واجهات الويب بكلاسات جاهزة وسريعة دون الحاجة لكتابة ملفات CSS تقليدية.",
+    "descriptionAr": "إطار العمل الرائد لتنسيق واجهات الويب بكلاسات جاهزة وسريعة دون الحاجة لكتابة ملفات CSS.",
     "plans": [
       {
         "tier": "Open Source",
@@ -738,114 +905,6 @@ export const websiteDirectory: Website[] = [
     "rating": 4.98
   },
   {
-    "id": "postman",
-    "name": "Postman",
-    "url": "https://postman.com",
-    "category": "Web & Software Development",
-    "subcategory": "API Development & Testing",
-    "tags": [
-      "API",
-      "REST",
-      "GraphQL",
-      "Testing",
-      "Documentation"
-    ],
-    "description": "The world's leading API platform for building, testing, documenting, and monitoring API endpoints.",
-    "descriptionAr": "المنصة القياسية الأولى لاختبار وتطوير واستكشاف واجهات البرمجة APIs وتوثيقها بدقة عالية.",
-    "plans": [
-      {
-        "tier": "Free",
-        "price": "Free",
-        "details": "30 members, core API testing, and collection runner."
-      },
-      {
-        "tier": "Basic",
-        "price": "$14/user/mo",
-        "details": "Unlimited collection runs and custom domains."
-      }
-    ],
-    "isBest": true,
-    "pricingCategory": "Free",
-    "intentKeywords": [
-      "postman api testing",
-      "test rest api online",
-      "api documentation tool"
-    ],
-    "rating": 4.91
-  },
-  {
-    "id": "sentry",
-    "name": "Sentry",
-    "url": "https://sentry.io",
-    "category": "Web & Software Development",
-    "subcategory": "Error Tracking & Monitoring",
-    "tags": [
-      "Debugging",
-      "Errors",
-      "Logs",
-      "Performance",
-      "Monitoring"
-    ],
-    "description": "Application performance monitoring and error tracking software that helps software teams fix crashes in real time.",
-    "descriptionAr": "منصة تتبع أخطاء البرمجة ومراقبة أداء التطبيقات في الوقت الفعلي مع تنبيهات وفحوصات لمصدر الخطأ.",
-    "plans": [
-      {
-        "tier": "Developer Free",
-        "price": "Free",
-        "details": "5,000 errors/mo and 10,000 performance units."
-      },
-      {
-        "tier": "Team",
-        "price": "$26/mo",
-        "details": "50,000 errors/mo and advanced transaction tracing."
-      }
-    ],
-    "isBest": true,
-    "pricingCategory": "Free",
-    "intentKeywords": [
-      "sentry error tracking",
-      "debug javascript errors",
-      "app error logs monitoring"
-    ],
-    "rating": 4.92
-  },
-  {
-    "id": "render-cloud",
-    "name": "Render",
-    "url": "https://render.com",
-    "category": "Web & Software Development",
-    "subcategory": "Cloud Hosting & Services",
-    "tags": [
-      "Hosting",
-      "Docker",
-      "Node.js",
-      "Postgres",
-      "Redis"
-    ],
-    "description": "Unified cloud platform to build and run all your web services, static sites, Cron jobs, and PostgreSQL databases.",
-    "descriptionAr": "منصة استضافة سحابية شاملة لسيرفرات Node.js، وقواعد بيانات Postgres وتطبيقات Docker بأسعار مرنة.",
-    "plans": [
-      {
-        "tier": "Free Tier",
-        "price": "Free",
-        "details": "Free static sites, web services, and PostgreSQL (90 days)."
-      },
-      {
-        "tier": "Individual",
-        "price": "$7/mo",
-        "details": "Always-on web service instances."
-      }
-    ],
-    "isBest": false,
-    "pricingCategory": "Free",
-    "intentKeywords": [
-      "render cloud hosting",
-      "free nodejs backend hosting",
-      "render vs heroku"
-    ],
-    "rating": 4.89
-  },
-  {
     "id": "supabase",
     "name": "Supabase",
     "url": "https://supabase.com",
@@ -859,17 +918,12 @@ export const websiteDirectory: Website[] = [
       "Vector"
     ],
     "description": "The open source Firebase alternative. Build with Postgres database, Instant APIs, Auth, Realtime, and Vector Storage.",
-    "descriptionAr": "البديل المفتوح المصدر لـ Firebase والمبني على قاعدة بيانات PostgreSQL الحقيقية مع دعم المصادقة والتخزين الذكي.",
+    "descriptionAr": "البديل المفتوح المصدر لـ Firebase والمبني على قاعدة بيانات PostgreSQL الحقيقية.",
     "plans": [
       {
         "tier": "Free Tier",
         "price": "Free",
         "details": "2 active projects, 500MB database, 1GB storage."
-      },
-      {
-        "tier": "Pro",
-        "price": "$25/mo",
-        "details": "8GB database space, 100GB storage, and zero pauses."
       }
     ],
     "isBest": true,
@@ -895,17 +949,12 @@ export const websiteDirectory: Website[] = [
       "Scale to Zero"
     ],
     "description": "Serverless Postgres built for the cloud. Features instant database branching, auto-scaling, and scale to zero cost.",
-    "descriptionAr": "قاعدة بيانات بوسطجريس سحابية وبدون سيرفر تتميز بالإيقاف التلقائي لمنع الهدر والتفرع الفوري مثل Git.",
+    "descriptionAr": "قاعدة بيانات بوسطجريس سحابية وبدون سيرفر تتميز بالإيقاف التلقائي والتفرع الفوري مثل Git.",
     "plans": [
       {
         "tier": "Free Tier",
         "price": "Free",
         "details": "0.5 GiB storage, 10 branch databases, auto-suspend."
-      },
-      {
-        "tier": "Launch",
-        "price": "$19/mo",
-        "details": "10 GiB storage, auto-scaling compute, point-in-time restore."
       }
     ],
     "isBest": true,
@@ -931,17 +980,12 @@ export const websiteDirectory: Website[] = [
       "Serverless"
     ],
     "description": "The edge database based on libSQLite designed for ultra low-latency queries close to users worldwide.",
-    "descriptionAr": "قاعدة بيانات فائقة السرعة مبنية على SQLite وموزعة حول العالم لتقديم أسرع وقت استجابة لأقل من مللي ثانية.",
+    "descriptionAr": "قاعدة بيانات فائقة السرعة مبنية على SQLite وموزعة حول العالم لتقديم أسرع وقت استجابة.",
     "plans": [
       {
         "tier": "Starter",
         "price": "Free",
         "details": "9GB total storage, 500 database locations."
-      },
-      {
-        "tier": "Scaler",
-        "price": "$29/mo",
-        "details": "100GB total storage and 20M read queries."
       }
     ],
     "isBest": true,
@@ -952,113 +996,5 @@ export const websiteDirectory: Website[] = [
       "libsql serverless"
     ],
     "rating": 4.93
-  },
-  {
-    "id": "pinecone-db",
-    "name": "Pinecone",
-    "url": "https://pinecone.io",
-    "category": "Data & Databases",
-    "subcategory": "Vector Database",
-    "tags": [
-      "Vector Search",
-      "AI Database",
-      "Embeddings",
-      "RAG",
-      "LLM"
-    ],
-    "description": "The vector database for AI infrastructure. Search billions of high-dimensional vectors with sub-second latency.",
-    "descriptionAr": "قاعدة بيانات المتجهات المخصصة للبنية التحتية للذكاء الاصطناعي والاستعلامات الدلالية فائقة السرعة.",
-    "plans": [
-      {
-        "tier": "Free Starter",
-        "price": "Free",
-        "details": "2GB storage for up to 1 million 768-dim vectors."
-      },
-      {
-        "tier": "Standard",
-        "price": "Usage Based",
-        "details": "Serverless usage per read/write query unit."
-      }
-    ],
-    "isBest": true,
-    "pricingCategory": "Free",
-    "intentKeywords": [
-      "pinecone vector database",
-      "vector search rag llm",
-      "free embeddings database"
-    ],
-    "rating": 4.94
-  },
-  {
-    "id": "upstash-redis",
-    "name": "Upstash",
-    "url": "https://upstash.com",
-    "category": "Data & Databases",
-    "subcategory": "Serverless Data & Cache",
-    "tags": [
-      "Redis",
-      "Vector",
-      "Kafka",
-      "Rate Limiting",
-      "Serverless"
-    ],
-    "description": "Serverless data platform offering Redis, Vector database, and QStash for serverless and edge developers.",
-    "descriptionAr": "منصة بيانات وسيرفرات ريديس كاش وبنك معلومات المتجهات للوظائف والتطبيقات بدون سيرفر.",
-    "plans": [
-      {
-        "tier": "Free Tier",
-        "price": "Free",
-        "details": "10,000 commands/day for Redis and Vector DB."
-      },
-      {
-        "tier": "Pay-As-You-Go",
-        "price": "Usage Based",
-        "details": "$0.20 per 100,000 requests."
-      }
-    ],
-    "isBest": false,
-    "pricingCategory": "Free",
-    "intentKeywords": [
-      "upstash serverless redis",
-      "free redis database",
-      "edge rate limiting redis"
-    ],
-    "rating": 4.9
-  },
-  {
-    "id": "mongodb-atlas",
-    "name": "MongoDB Atlas",
-    "url": "https://mongodb.com/atlas",
-    "category": "Data & Databases",
-    "subcategory": "Document NoSQL Database",
-    "tags": [
-      "NoSQL",
-      "Document DB",
-      "JSON",
-      "Cloud",
-      "Vector Search"
-    ],
-    "description": "Fully managed cloud database service for MongoDB. Deploy scalable NoSQL document clusters worldwide.",
-    "descriptionAr": "قاعدة بيانات المستندات NoSQL السحابية مع دعم مرن لتخزين بيانات JSON والبحث المتقدم.",
-    "plans": [
-      {
-        "tier": "M0 Free Cluster",
-        "price": "Free",
-        "details": "512MB free storage with shared RAM."
-      },
-      {
-        "tier": "Serverless",
-        "price": "Usage Based",
-        "details": "Pay per read/write operation unit."
-      }
-    ],
-    "isBest": true,
-    "pricingCategory": "Free",
-    "intentKeywords": [
-      "mongodb atlas free cluster",
-      "nosql json database",
-      "mongodb cloud free"
-    ],
-    "rating": 4.92
   }
 ];

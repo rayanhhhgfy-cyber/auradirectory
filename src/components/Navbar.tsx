@@ -38,8 +38,13 @@ export const Navbar: React.FC<NavbarProps> = ({
           
           {/* Brand Logo & Title */}
           <div className="flex items-center space-x-2.5 sm:space-x-3 rtl:space-x-reverse">
-            <div className="flex h-9 w-9 sm:h-10 sm:w-10 items-center justify-center rounded-lg bg-blue-500 text-white border-2 border-black shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] sm:shadow-[3px_3px_0px_0px_rgba(0,0,0,1)]">
-              <Compass className="h-5 w-5 sm:h-6 sm:w-6 animate-pulse" />
+            <div className="relative overflow-hidden flex h-10 w-10 sm:h-11 sm:w-11 items-center justify-center rounded-xl border-2 border-black bg-blue-600 shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] sm:shadow-[3px_3px_0px_0px_rgba(0,0,0,1)]">
+              <img 
+                src="/src/assets/images/app_logo_1785154526318.jpg" 
+                alt="WebNav Logo" 
+                className="h-full w-full object-cover"
+                referrerPolicy="no-referrer"
+              />
             </div>
             <div>
               <div className="flex items-center space-x-1.5 sm:space-x-2 rtl:space-x-reverse">

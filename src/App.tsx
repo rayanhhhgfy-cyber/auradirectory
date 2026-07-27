@@ -183,15 +183,26 @@ export default function App() {
       />
 
       {/* Directory Bento Footer */}
-      <footer className="mt-16 border-t-2 border-black dark:border-[#2A364F] bg-white dark:bg-[#131B2E] py-8 text-xs text-slate-600 dark:text-[#94A3B8]">
-        <div className="mx-auto max-w-7xl px-4 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <p className="font-bold uppercase tracking-wider">
-            © {new Date().getFullYear()} AuraDirectory &bull; {language === 'ar' ? 'جميع البيانات موثوقة ومفهرسة فورياً' : 'All data verified and indexed in real-time'}
-          </p>
-          <div className="flex items-center space-x-4 rtl:space-x-reverse font-black uppercase text-[11px]">
-            <span className="text-blue-600 dark:text-blue-400">3,150+ {language === 'ar' ? 'موقع مفهرس' : 'Indexed Web Tools'}</span>
-            <span>&bull;</span>
-            <span className="text-purple-600 dark:text-purple-400">{language === 'ar' ? 'دعم ثنائي اللغة (عربي / إنجليزي)' : 'Bilingual EN/AR'}</span>
+      <footer id="app-footer" className="mt-16 border-t-2 border-black dark:border-[#2A364F] bg-white dark:bg-[#131B2E] py-8 text-xs text-slate-600 dark:text-[#94A3B8]">
+        <div className="mx-auto max-w-7xl px-4 flex flex-col items-center justify-center gap-4 text-center">
+          <div className="flex flex-col sm:flex-row items-center justify-between w-full gap-4">
+            <p className="font-bold uppercase tracking-wider">
+              © {new Date().getFullYear()} AuraDirectory &bull; {language === 'ar' ? 'جميع البيانات موثوقة ومفهرسة فورياً' : 'All data verified and indexed in real-time'}
+            </p>
+            <div className="flex items-center space-x-4 rtl:space-x-reverse font-black uppercase text-[11px]">
+              <span className="text-blue-600 dark:text-blue-400">3,150+ {language === 'ar' ? 'موقع مفهرس' : 'Indexed Web Tools'}</span>
+              <span>&bull;</span>
+              <span className="text-purple-600 dark:text-purple-400">{language === 'ar' ? 'دعم ثنائي اللغة (عربي / إنجليزي)' : 'Bilingual EN/AR'}</span>
+            </div>
+          </div>
+          
+          <div className="pt-4 border-t border-slate-200 dark:border-[#2A364F] w-full flex items-center justify-center">
+            <p id="creator-attribution" className="text-sm sm:text-base font-black text-slate-900 dark:text-slate-100 tracking-wide flex items-center gap-2 flex-wrap justify-center">
+              <span>{language === 'ar' ? 'تم التطوير بواسطة' : 'Built by'}</span>
+              <span className="px-3 py-1 rounded-lg bg-blue-50 dark:bg-blue-950/60 border border-blue-200 dark:border-blue-800 text-blue-700 dark:text-blue-300 font-extrabold shadow-sm">
+                Rayyan Aljamal ريان الجمل
+              </span>
+            </p>
           </div>
         </div>
       </footer>
