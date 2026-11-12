@@ -199,9 +199,9 @@ export default function App() {
           <div className="pt-4 border-t border-slate-200 dark:border-[#2A364F] w-full flex items-center justify-center">
             <p id="creator-attribution" className="text-sm sm:text-base font-black text-slate-900 dark:text-slate-100 tracking-wide flex items-center gap-2 flex-wrap justify-center">
               <span>{language === 'ar' ? 'تم التطوير بواسطة' : 'Built by'}</span>
-              <span className="px-3 py-1 rounded-lg bg-blue-50 dark:bg-blue-950/60 border border-blue-200 dark:border-blue-800 text-blue-700 dark:text-blue-300 font-extrabold shadow-sm">
+              <a href="https://rayyans-showroom.vercel.app/projects/auradirectory" className="px-3 py-1 rounded-lg bg-blue-50 dark:bg-blue-950/60 border border-blue-200 dark:border-blue-800 text-blue-700 dark:text-blue-300 font-extrabold shadow-sm">
                 Rayyan Aljamal ريان الجمل
-              </span>
+              </a>
             </p>
           </div>
         </div>
